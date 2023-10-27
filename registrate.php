@@ -12,13 +12,13 @@
         <h1>Registro de Usuarios</h1>
 
         <label for="">Usuario</label>
-        <input type="text" name="Usuario" id="">
+        <input type="text" name="Usuario" id=""  pattern="[A-Za-z].{3,}" placeholder="3 A 30 caracteres" maxlength="30" required>
         
         <label for="">Password</label>
-        <input type="password" name="Clave" id="">
+        <input type="password" name="Clave" id="" pattern="{4,}" placeholder="4 A 8 caracteres" maxlength="8" required>
         
         <label for="">Nombre Completo</label>
-        <input type="password" name="Fname" id="">
+        <input type="text" name="Fname" id="" pattern="[A-Za-z].{10,}" placeholder="10 A 30 caracteres" maxlength="30"required>
 
         <button type="submit" name="registro">Registro</button>
 
